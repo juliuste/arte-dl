@@ -1,5 +1,5 @@
 # arte-dl
-[![Build Status](https://travis-ci.org/juliuste/tf-idf.svg?branch=master)](https://travis-ci.org/juliuste/arte-dl) [![Python](https://img.shields.io/badge/python-2.7, 3.x-blue.svg)](https://www.python.org/) [![MIT License](https://img.shields.io/badge/license-MIT-black.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/python-2.7, 3.x-blue.svg)](https://www.python.org/) [![MIT License](https://img.shields.io/badge/license-MIT-black.svg)](https://opensource.org/licenses/MIT)
 
 This script downloads videos from the [german arte +7 library](http://www.arte.tv/guide/de/plus7/) out of given categories like `Dokumentation`, `Dokumentationsreihe`, `Reportage`,  etc... 
 
