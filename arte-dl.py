@@ -6,7 +6,7 @@ import os.path
 
 config = {
 	'feed': 'http://www.arte.tv/papi/tvguide-flow/feeds/videos/de.xml?type=ARTE_PLUS_SEVEN&player=true',
-	'categories': ['Dokumentation', 'Dokumentationsreihe'],
+	'categories': ['Dokumentarfilm', 'Dokumentation', 'Dokumentationsreihe'],
 	'list-path': 'id.list'
 }
 
