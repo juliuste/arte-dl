@@ -19,7 +19,7 @@ git clone https://github.com/juliuste/arte-dl.git
 cd arte-dl
 nano arte-dl.py
 ```
-You may alter the list of categories, the following keys are valid:
+You may alter the list of categories (`config['categories']`), the following keys are valid:
 - `Dokumentarfilm`
 - `Dokumentation`
 - `Dokumentationsreihe`
@@ -33,8 +33,11 @@ You may alter the list of categories, the following keys are valid:
 - `Oper`
 - `Reportage`
 - `Theater`
-
 If you leave the list empty, all videos regardless of their category will be downloaded.
+
+The script will store a list of previously downloaded scripts to prevent storing multiple duplicates of files in a text file thats path is specified in the `config['list-path']` setting.
+
+By default, this text file and the downloaded videos will be stored in the script directory.
 
 ### Execute the script
 ```bash
