@@ -24,7 +24,7 @@ mediathek = feedparser.parse(config['feed'])['items']
 downloadLinks = []
 
 for sendung in mediathek:
-	if (sendung['category'] in config['categories']) and not (sendung['link'] in ids):
+	if ((sendung['category'] in config['categories']) or (len(config['categories'])==0)) and not (sendung['link'] in ids):
 		downloadLinks.append(sendung['link'])
 
 print('Scanning complete. '+str(len(downloadLinks))+' Video(s) will be downloaded.')
