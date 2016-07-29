@@ -36,7 +36,7 @@ You may alter the list of categories (`config['categories']`), the following key
 
 If you leave the list empty, all videos regardless of their category will be downloaded.
 
-The script will store a list of previously downloaded scripts to prevent storing multiple duplicates of files in a text file thats path is specified in the `config['list-path']` setting.
+The script will store a list of previously downloaded videos to prevent storing multiple duplicates of files in a text file thats path is specified in the `config['list-path']` setting.
 
 By default, this text file and the downloaded videos will be stored in the script directory.
 
