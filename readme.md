@@ -45,5 +45,11 @@ By default, this text file and the downloaded videos will be stored in the scrip
 python arte-dl.py
 ```
 
+### Advanced
+If you wish to check for new videos on a regular basis, you may add the script as a cronjob. Adding the following to your crontab using `crontab -e` for example will run the script at 1:00 AM on a daily basis:
+```
+0 1 * * * python [[path-to-script]]/arte-dl.py > [[path-to-script]]/arte.log
+```
+
 ## Contributing
 If you found another category, a bug, want to propose a feature or feel the urge to complain about your life, feel free to visit [the issues page](https://github.com/juliuste/arte-dl/issues).
